@@ -1,0 +1,114 @@
+@import url('refinery/application.css');
+/*
+	Override default refinery application CSS below.
+	Formatting applies to all frontend.
+*/
+/* default refinery css */
+body {
+  margin: 0px auto;
+}
+#page {
+  background: white;
+  padding: 0px 20px;
+}
+#page, #footer_content, #site_bar_content {
+	width: 960px;
+  margin: 0px auto;
+}
+#site_bar #editor_switch a, #site_bar editor_switch a:hover {
+  line-height: inherit !important;
+}
+#header {
+  height: 190px;
+  margin-bottom: 10px;
+}
+.class-schedule #header {
+  height: 140px;
+}
+#header h1 {
+  float: left;
+	margin-top: 71px;
+}
+#menu {
+  list-style: none;
+  float: right;
+  margin-top: 86px;
+}
+#menu li {
+  float: left;
+  margin: 0px 0px 0px 12px;
+}
+#menu li.first {
+  margin: 0px 0px 0px 0px;
+}
+
+#footer {
+  margin-top: 100px;
+  font-size: 11px;
+	height: 144px;
+	background: url('/images/footer_bg.png') repeat;
+	width: 100%;
+}
+#footer_content {
+	padding-top: 15px;
+}
+#footer #copyright {
+	font-size: 14px;
+	width: 50%;
+	float: left;
+}
+
+#footer #contact_details {
+	float: right;
+	text-align: right;
+	width: 50%;
+	margin-top: 18px;
+	line-height: 20px;
+}
+#footer #contact_details #phone_details {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+#footer #contact_details #address_details {
+	font-size: 14px;
+}
+#body_content_left {
+  float: left;
+  width: 568px;
+}
+#body_content.no_right #body_content_left {
+	width: 962px;
+}
+#body_content.no_right #body_content_left #iframe_box {
+	border: 1px solid #b8b8b8;
+	padding: 53px 21px;
+	width: 915px;
+	position: relative;
+	margin-bottom: 50px;
+}
+#iframe_box #yoga_frame_top {
+	position: absolute;
+	left: 445px;
+	top: -27px;
+}
+#iframe_box #yoga_frame_bottom {
+	position: absolute;
+	left: 445px;
+	bottom: -26px;
+}
+#body_content_right {
+  float: right;
+  margin-top: 36px;
+  width: 311px;
+	text-align: center;
+}
+#body_content_right p.first_paragraph.with_media {
+	padding: 9px;
+	border: 1px solid #beb8b8;
+	margin-top: 21px;
+}
+
+
+
+/* put your main css here */
